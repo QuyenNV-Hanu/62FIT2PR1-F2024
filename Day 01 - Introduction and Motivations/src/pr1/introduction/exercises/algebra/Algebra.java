@@ -1,4 +1,4 @@
-package day01_introduction.demo.exercise8_Algebra;
+package pr1.introduction.exercises.algebra;
 
 public class Algebra {
 	public static void main(String[] args) {

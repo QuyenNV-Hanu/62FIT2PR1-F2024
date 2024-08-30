@@ -1,4 +1,4 @@
-package day01_introduction.demo.exercise07_PopulationProjection;
+package pr1.introduction.exercises.population;
 
 public class PopulationProjection {
 	public static void main(String[] args) {
