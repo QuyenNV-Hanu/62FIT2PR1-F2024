@@ -16,7 +16,7 @@ public class Hex2Dec {
 	}
 
 	// Recursive helper method
-	private static int hex2DecHelper(String hex, int position, int index) {
+	public static int hex2DecHelper(String hex, int position, int index) {
 		if (position < 0) {
 			return 0; // Base case: no more characters to process
 		}

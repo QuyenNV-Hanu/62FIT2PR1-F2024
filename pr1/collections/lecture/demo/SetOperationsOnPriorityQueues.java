@@ -22,10 +22,22 @@ public class SetOperationsOnPriorityQueues {
 		queue2.add("Kevin");
 		queue2.add("Michelle");
 		queue2.add("Ryan");
+		System.out.println("Queue 1: " + queue1);
+		System.out.println("Queue 2: " + queue2);
 
 		// Perform union (all elements from both queues)
 		PriorityQueue<String> unionQueue = new PriorityQueue<>(queue1);
-		unionQueue.addAll(queue2);
+		System.out.println("Union 0: " + unionQueue);
+		unionQueue.add("George");
+		System.out.println("Union 1: " + unionQueue);
+		unionQueue.add("Katie");
+		System.out.println("Union 2: " + unionQueue);
+		unionQueue.add("Kevin");
+		System.out.println("Union 3: " + unionQueue);
+		unionQueue.add("Michelle");
+		System.out.println("Union 4: " + unionQueue);
+		unionQueue.add("Ryan");
+//		unionQueue.addAll(queue2);
 		System.out.println("Union: " + unionQueue);
 
 		// Perform difference (elements in queue1 but not in queue2)
